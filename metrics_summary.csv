@@ -1,0 +1,16 @@
+model,price_band,homes,R2,MAPE,MdAPE
+LinearRegression,All,11788,0.732,35.407,23.009
+LinearRegression,Under $500K,1687,,81.132,48.161
+LinearRegression,$500K-$1M,4806,,33.924,26.482
+LinearRegression,$1M-$2M,3658,,22.105,16.127
+LinearRegression,Over $2M,1637,,22.368,18.96
+RandomForest,All,11788,0.824,17.983,9.004
+RandomForest,Under $500K,1687,,44.122,8.965
+RandomForest,$500K-$1M,4806,,11.444,6.928
+RandomForest,$1M-$2M,3658,,13.943,10.014
+RandomForest,Over $2M,1637,,19.267,14.769
+XGBoost,All,11788,0.846,19.395,10.501
+XGBoost,Under $500K,1687,,49.85,12.716
+XGBoost,$500K-$1M,4806,,12.965,8.999
+XGBoost,$1M-$2M,3658,,14.23,10.734
+XGBoost,Over $2M,1637,,18.424,14.613
